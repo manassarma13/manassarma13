@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #00ff00;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.glitch {
+    font-size: 3em;
+    color: #00ff00;
+    position: relative;
+    display: inline-block;
+}
+
+.glitch::before,
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #00ff00;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: glitch 2s infinite;
+}
+
+.glitch::after {
+    animation: glitch 3s infinite;
+    left: 2px;
+    text-shadow: -2px 0 red;
+}
+
+@keyframes glitch {
+    0% { clip: rect(42px, 9999px, 44px, 0); transform: skew(0.1deg); }
+    5% { clip: rect(0px, 9999px, 85px, 0); transform: skew(0.3deg); }
+    10% { clip: rect(85px, 9999px, 10px, 0); transform: skew(0.2deg); }
+    15% { clip: rect(100px, 9999px, 75px, 0); transform: skew(0.5deg); }
+    20% { clip: rect(42px, 9999px, 44px, 0); transform: skew(0.4deg); }
+    25% { clip: rect(0px, 9999px, 85px, 0); transform: skew(0.6deg); }
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.terminal {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: #00ff00;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.5);
+}
+
+.blinking {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to { opacity: 1; }
+    50% { opacity: 0; }
+}
