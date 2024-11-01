@@ -11,7 +11,7 @@ I'm Manas – a passionate developer interested in building **fast**, **scalable
 - **Frontend**: React, Svelte, LiveView, TypeScript, Tailwind CSS
 - **Backend**: Node.js, Express, Phoenix, 
 - **Database**: MongoDB, PostgreSQL
-- **DevOps**: Docker, Git, CI/CD Pipelines
+- **DevOps**: Docker, Git, CI/CD Pipelines, AWS
 
 ### 📈 Why Me?
 I prioritize **scalability** and **maintainability** in all my projects, ensuring that every piece of code is efficient, clean, and ready for future growth.
