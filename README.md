@@ -1,24 +1,22 @@
 # Hi there! 👋
 
-I'm Manas – a passionate developer interested in building **fast**, **scalable**, and **robust** tech solutions. My journey revolves around creating web and mobile applications that are not just functional but also maintainable and ready to scale.
+I'm Manas – an AI-focused Software Engineer passionate about building **agentic workflows**, **scalable real-time systems**, and **intelligent applications**. My expertise lies in bridging the gap between cutting-edge LLMs and robust, production-ready full-stack architecture.
 
-### 🚀 What I Do?
-- **Frontend Development**: Crafting responsive, interactive, and user-centric interfaces with **JavaScript** and libraries like **React**.
-- **Backend Solutions**: Designing efficient and reliable backend systems using **Node.js** for seamless data management and API handling.
-- **Full-Stack Engineering**: Bringing together front and backends to create cohesive, high-performance applications.
-
-### 💡 Tech Stack & Tools!
-- **Frontend**: React, Svelte, LiveView, TypeScript, Tailwind CSS
-- **Backend**: Node.js, Express, Phoenix, 
-- **Database**: MongoDB, PostgreSQL
-- **DevOps**: Docker, Git, CI/CD Pipelines, AWS
+### 💡 Tech Stack & Tools
+- **AI & Data**: LangChain, LlamaIndex, Vector Databases (pgvector, Pinecone), Hugging Face, OpenAI/Anthropic APIs
+- **Languages**: TypeScript, Elixir, JavaScript, Python
+- **Frontend**: React, Svelte, Phoenix LiveView, Tailwind CSS
+- **Backend**: Node.js, Express, Phoenix, OTP
+- **Databases**: PostgreSQL (incl. pgvector), MongoDB, Redis
+- **DevOps**: Docker, CI/CD, AWS, Cloudflare Tunnels
 
 ### 📈 Why Me?
-I prioritize **scalability** and **maintainability** in all my projects, ensuring that every piece of code is efficient, clean, and ready for future growth.
+I don't just bolt on AI; I build **scalable, maintainable systems** around it. By combining the fault tolerance of the Erlang VM (via Elixir) with modern frontend tooling and state-of-the-art AI models, I create intelligent products that are efficient, secure, and ready for exponential scale.
 
-### 🌱 Currently Exploring!
-- **Cloud Solutions**: Experimenting with cloud platforms to enhance the performance and reach of applications.
-- **Advanced React Patterns**: Diving into hooks, context, and optimizations to make UIs more powerful and efficient.
+### 🌱 Currently Exploring
+- **Agentic AI Architecture**: Building multi-agent systems capable of complex reasoning and tool use.
+- **Edge AI & Local Models**: Running smaller, optimized models locally for privacy-first AI applications.
+- **Zero-Infrastructure Apps**: Experimenting with client-side persistence (localStorage/IndexedDB) paired with real-time sync.
 
 ### 📫 Let's Connect!
-Feel free to reach out! I'm always open to collaborating on projects or discussing tech ideas.
+Feel free to reach out! I'm always open to collaborating on next-gen AI projects or discussing tech ideas.
